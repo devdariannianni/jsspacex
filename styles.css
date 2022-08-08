@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+body{
+    background-color:#5F6472;
+}
+
+/* header */
+
+.img-logo{
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 10px;
+    top: 27px;
+}
+
+
+/* main */
+
+h2{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.main-ul  {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    height: 80vh;
+    width: 270px;
+    overflow-y: scroll;
+}
+.main-ul::-webkit-scrollbar {
+    display: none;
+}
+.main-ul li {
+    font-family: 'Roboto', sans-serif; 
+    width: 230px;
+    height: 30px;
+}
+.main-ul li:hover{
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+    border-radius: 10px;
+    
+    
+}
+
+.main-link{
+    color:  #979797;
+    width: 269px;
+    height: 30px;
+    
+   
+}
+.main-ul:hover{
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
+
+.container{
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    top: 88px;
+    left: 273px;
+    overflow: hidden;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    border-radius: 30px;
+}
+h3{
+    position: absolute;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    top: 35px;
+    left: 60px;
+    
+    height: 74px;
+    color: #FFFFFF;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+
+}
+.gmail-box{
+    position: absolute;
+    font-style: normal;
+    top: 111px;
+    left: 61px;
+    color: #979797;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    height: 10px;
+}
+.cargo-boxes{
+    position: absolute;
+    top: 186px;
+    left: 65px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #979797;
+}
+.input-box{
+    position: absolute;
+    left: 58px;
+    width: 299px;
+    height: 30px;
+    top: 221px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.cargo-boxes2{
+    position: absolute;
+    top: 278px;
+    left: 63px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform:capitalize;
+
+    color: #979797;
+}
+.number-box{
+    position: absolute;
+    top: 322px;
+    left: 62px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 47px;
+}
+
+/* mobile */
+.burgermenu-icon{
+    position: relative;
+
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+    left: 192px;
+    top: 27px;
+    display: none;
+
+}
+.burger{
+    width: 25px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin: 6px 0;
+    display: none;
+  }
+
+
+
+@media only screen and (max-width:600px) {
+    .container{
+        display: none;
+    }
+    .burgermenu-icon{
+        display: block;
+    }
+    .burger{
+        display: block;
+    }
+    
+  }
+
